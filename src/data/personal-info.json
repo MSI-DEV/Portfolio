@@ -1,0 +1,439 @@
+{
+  "personal": {
+    "name": "Murayama genji",
+    "nickname": "Shades",
+    "title": "AI Senior",
+    "company": "Scalify AI Co",
+    "location": "Sakurai , Japan",
+    "email": "murayamagenji394@gmail.com",
+    "phone": "+91-6362185244",
+    "tagline": "AI Engineer & Full-Stack Developer",
+    "bio": "I architect intelligent solutions at the intersection of AI and full-stack development. From building accessibility-first applications to automating complex workflows, I transform ideas into impactful digital experiences.",
+    "closingBio": "Ready to collaborate on something extraordinary? I'm always excited to connect with fellow innovators, explore cutting-edge projects, and push the boundaries of what's possible with technology. Let's build the future together.",
+    "story": [
+      "With over 4 years of experience in full-stack development and more than 2 years of experience in AI/ML Engineering, I've had the privilege of working with vibrant teams across enterprise companies, building everything from MVPs to large-scale applications serving millions of users.", 
+      "My journey has been defined by creating meaningful impact through technology. From research publications to innovation competitions, I've consistently focused on building solutions that genuinely improve people's lives. Whether working on accessibility, security, or wellness applications, I'm driven by the belief that technology should be both powerful and purposeful.", 
+      "When I'm not coding, you'll find me contributing to open-source projects, writing technical articles, or maybe gaming. I believe in continuous learning and sharing knowledge with the community."],
+    "profileImage": "/owais-profile2.png"
+  },
+  "stats": {
+    "projects": "10+",
+    "yearsExperience": "4+",
+    "technologiesMastered": "30+"
+  },
+  "social": {
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/muratamagenji-3a3363225",
+      "username": "muratamagenji-3a3363225"
+    },
+    "github": {
+      "url": "https://github.com/Shades-en",
+      "username": "Shades-en"
+    },
+    "medium": {
+      "url": "https://medium.com/@muratamagenji394",
+      "username": "muratamagenji394"
+    },
+    "email": "mailto:murayamagenji394@gmail.com",
+    "phone": "tel:+916362185244",
+    "resume": "https://drive.google.com/file/d/1rmdnshV79wVHCssTCWoTJ5LOlcf0snju/view?usp=drive_link"
+  },
+  "skills": {
+    "languages": [
+      { "name": "Python", "experience": "5+ years", "context": "AI/ML, automation, APIs", "category": "Programming Languages", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { "name": "JavaScript", "experience": "3+ years", "context": "Full-stack, React, Node.js", "category": "Programming Languages", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { "name": "TypeScript", "experience": "2+ years", "context": "Enterprise React/Next.js", "category": "Programming Languages", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+      { "name": "Java", "experience": "1+ year", "context": "Spring Boot, enterprise", "category": "Programming Languages", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+      { "name": "C", "experience": "Academic", "context": "Systems, algorithms", "category": "Programming Languages", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
+      { "name": "SQL", "experience": "2+ years", "context": "Database design, queries", "category": "Programming Languages", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" }
+    ],
+    "ai_ml": [
+      { "name": "HuggingFace", "experience": "1+ year", "context": "Multimodal AI, fine-tuning", "category": "AI/ML", "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
+      { "name": "Langchain", "experience": "2+ year", "context": "RAG systems, AI agents", "category": "AI/ML", "icon": "https://cdn.jsdelivr.net/npm/simple-icons@14.11.0/icons/langchain.svg" },
+      { "name": "OpenAI SDK", "experience": "1+ year", "context": "GPT integration, automation", "category": "AI/ML", "icon": "https://cdn.jsdelivr.net/npm/simple-icons@14.11.0/icons/openai.svg" },
+      { "name": "spaCy", "experience": "Current", "context": "Enterprise AI solutions", "category": "AI/ML", "icon": "https://google.github.io/adk-docs/assets/agent-development-kit.png" },
+      { "name": "Agents SDK", "experience": "Current", "context": "AI agent development", "category": "AI/ML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { "name": "Arize AI", "experience": "Current", "context": "ML monitoring, tracking", "category": "AI/ML", "icon": "https://cdn.pagerduty.com/wp-content/uploads/2022/08/arize-logo-pink-icon-black-text.svg" }
+    ],
+    "backend": [
+      { "name": "TensorFlow", "experience": "2+ year", "context": "High-performance APIs", "category": "Backend", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/TensorFlow/TensorFlow-original.svg" },
+      { "name": "Node.js", "experience": "3+ years", "context": "RESTful APIs, microservices", "category": "Backend", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+      { "name": "Django", "experience": "1+ year", "context": "Web apps, admin panels", "category": "Backend", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
+      { "name": "Flask", "experience": "1+ year", "context": "Lightweight APIs", "category": "Backend", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
+      { "name": "Spring Boot", "experience": "1+ year", "context": "Enterprise Java apps", "category": "Backend", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" }
+    ],
+    "frontend": [
+      { "name": "React.js", "experience": "3+ years", "context": "MicroFrontends, SPAs", "category": "Frontend", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+      { "name": "Next.js", "experience": "1+ year", "context": "SSG/SSR applications", "category": "Frontend", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+      { "name": "ThreeJS", "experience": "Project-based", "context": "3D visualizations", "category": "Frontend", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" },
+      { "name": "HTML/CSS", "experience": "4+ years", "context": "Responsive design", "category": "Frontend", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" }
+    ],
+    "cloud_databases": [
+      { "name": "Microsoft Azure", "experience": "Project-based", "context": "Cloud deployment, Logic Apps", "category": "Cloud & Databases", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+      { "name": "Kubernetes", "experience": "Project-based", "context": "Pod deployment, clusters", "category": "Cloud & Databases", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
+      { "name": "Docker", "experience": "2+ years", "context": "Containerization", "category": "Cloud & Databases", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+      { "name": "MongoDB", "experience": "2+ year", "context": "NoSQL databases", "category": "Cloud & Databases", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+      { "name": "Redis", "experience": "1+ year", "context": "Caching, sessions", "category": "Cloud & Databases", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" },
+      { "name": "Linux Systems", "experience": "1+ years", "context": "Terminal commands, system administration", "category": "Cloud & Databases", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" }
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "AI Senior",
+      "company": "Scalify AI Co",
+      "location": "United States",
+      "logo": "/professional-experience-logos/Scalify.png",
+      "duration": "2022 – Present",
+      "description": "Joined Scalify AI as a AI engineer and contributed significantly to the core server infrastructur epowering the world' s first AI platform for ordering professional custom websites in un der 10 minutes.",
+      "achievements": [
+        "I implemented a session isolation system using per-user Redis namespaces to prevent cross-user data leakage.",
+        "I designed a state management system with versioned objects and optimistic locking to safely handle concurrent updates.",
+        "I designed a state management system with versioned objects and optimistic locking to safely handle concurrent updates.",
+        "I created 100+ concurrent integration tests to identify and eliminate race conditions under heavy load.",
+        "I improved overall system performance and stability, enabling reliable real-time AI orchestration and supporting a successful platform launch."
+      ],
+      "technologies": ["Python", "TensorFlow", "spaCy", "OpenAI SDK", "Langchain", "HuggingFace", "LlamaIndex", "React.js", "FAISS", "FastAPI", "Docker", "Node.js"]
+    },
+    {
+      "id": 2,
+      "title": "Full Stack & AI Junior",
+      "company": "Story AI Co ",
+      "location": " Japan",
+      "logo": "/professional-experience-logos/story.png",
+      "duration": "2020 – 2022",
+      "description": "Deployed pods and services in Kubernetes clusters with L7 load balancing. Developed prototypes showcasing SingleStore as vector store utilizing RAG with Langchain.",
+      "achievements": [
+        "Designed Logic apps for application secrets expiry notification",
+        "Implemented Retrieval Augmented Generation solutions",
+        "Managed cloud infrastructure and container orchestration"
+      ],
+      "technologies": ["Microsoft Azure", "SingleStore", "Langchain", "SQL", "Docker", "Linux", "Terraform", "Kubernetes"]
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Intern",
+      "company": "SmartHR company",
+      "location": "Japan",
+      "logo": "/professional-experience-logos/smarthr.png",
+      "duration": "Aug 2022 – Nov 2022",
+      "description": "Joined as a full-stack developer and delivered web solutions that improved client operations and user experience. Built responsive front-ends with React and Next.js and robust back-ends with Node.js and Express. ",
+      "achievements": [
+        "Built complete recruitment platform with Azure MySQL Database and Nodejs Backend",
+        "Deployed application using Heroku and Docker",
+        "Led cross-functional team of interns to project success"
+      ],
+      "technologies": ["Node.js", "EJS", "FastAPI", "SQL", "Azure", "Heroku"]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Computer Science",
+    "institution": "Nagoya University ",
+    "duration": "Nov 2020 – Jun 2024",
+    "cgpa": "9.56/10.0",
+    "location": "Japan"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Research Paper Insight Engine",
+      "subtitle": "",
+      "description": "While developing the CORD-19 Research Challenge dataset, I built an AI pipeline to efficiently preprocess, clean, and structure tens of thousands of COVID-19 research papers. I implemented NLP-based search and indexing to enable rapid retrieval of relevant insights, supporting researchers in accelerating scientific discovery. Optimizing for scalability and accuracy, I ensured the dataset could handle continuous updates and complex query loads seamlessly.",
+      "longDescription": "Research project under Unisys & Nagoya University  focusing on multimodal generative AI for accessibility. Combines LLAVA-1.5, LangChain, and NextAuth.js for reduced hallucinations and enhanced object recognition.",
+      "technologies": ["OpenAI", "Python", "LangChain", "TensorFlow", "Pandas", "Airflow"],
+      "github": "https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge",
+      "featured": true,
+      "image": "/1.png",
+      "status": "Published Research",
+      "priority": 1
+    },
+    {
+      "id": 2,
+      "title": "Product Review Sentiment Dashboard",
+      "subtitle": "",
+      "description": "While developing the Amazon Fine Food Reviews dataset project, I built AI models to analyze sentiment patterns and extract meaningful insights from hundreds of thousands of user reviews. I implemented preprocessing pipelines, feature engineering, and NLP-based sentiment classification, achieving robust accuracy and interpretability. This work allowed me to explore scalable text analytics and improve data-driven recommendation insights.",
+      "longDescription": "Research project providing comprehensive passwordless authentication solutions for web and mobile applications. Implements Facenet for facial verification, Resemblyzer for voice recognition, and WebAuthn API for FIDO authentication.",
+      "technologies": ["Python", "Pandas / NumPy", "NLTK / SpaCy", "Jupyter Notebook", "Kaggle platform"],
+      "github": "https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews",
+      "featured": true,
+      "image": "/2.png",
+      "status": "Open Source",
+      "priority": 2
+    },
+    {
+      "id": 3,
+      "title": "Smart Email Auto-Responder",
+      "subtitle": "",
+      "description": "While developing the AI for Enron.com, I implemented intelligent data parsing and predictive analytics to extract actionable insights from vast communication datasets. I optimized natural language understanding pipelines to classify and summarize key information, improving decision-making and internal knowledge retrieval. The project leveraged advanced AI models integrated seamlessly into the user-facing interface for real-time analysis.",
+      "longDescription": "Comprehensive mental health platform analyzing journal entries to provide personalized support. Integrates specific brain-targeting frequencies and AI-driven goal generation for depression support.",
+      "technologies": ["Python", "PostgreSQL", "PostgreSQL", "JavaScript", "Flask/Django backend"],
+      "github": "https://www.enron.com/",
+      "featured": false,
+      "image": "/3.png",
+      "status": "Active Development",
+      "priority": 3
+    },
+    {
+      "id": 4,
+      "title": "Personalized Learning Path Recommender",
+      "subtitle": "",
+      "description": "While developing the AI for Coursera, I designed intelligent recommendation and personalization engines that analyzed user behavior to deliver tailored course suggestions. I optimized natural language processing models for course search and automated content tagging, improving user engagement and retention. I also implemented scalable AI pipelines to handle millions of concurrent learners efficiently.",
+      "longDescription": "Full-stack platform enabling students to create comprehensive profiles highlighting skills and achievements, join clubs, collaborate across colleges, and share educational resources. Features inter-college collaboration, club activities, and notification systems.",
+      "technologies": ["Python", "PostgreSQL", "PyTorch", "Kubernetes", "Kubernetes"],
+      "github": "https://www.coursera.org/",
+      "featured": false,
+      "image": "/4.png",
+      "status": "Completed",
+      "priority": 6
+    },
+    {
+      "id": 5,
+      "title": "Autobase",
+      "subtitle": "",
+      "description": "Developed the backend of Autobase, architecting a scalable REST API that efficiently handles high-frequency data ingestion and retrieval. I optimized database queries, implemented robust authentication and role-based access, and integrated real-time notifications to ensure seamless user experiences. Additionally, I designed the system with modularity and maintainability in mind, enabling rapid feature expansion.",
+      "longDescription": "Modern React frontend for promotions management featuring responsive design with Tailwind CSS, interactive charts with Recharts, and comprehensive UI components using Shadcn. Integrates with backend promotions management system.",
+      "technologies": ["Node.js", "Express.js", "PostgreSQL", "PostgreSQL", "Redis", "WebSockets", "Docker"],
+      "github": "https://autobase.tech/",
+      "featured": false,
+      "image": "/5.png",
+      "status": "Completed",
+      "priority": 8
+    },
+    {
+      "id": 6,
+      "title": "Parkmaven",
+      "subtitle": "",
+      "description": "Built the backend for ParkMaven’s payment platform, focusing on secure, low-latency transaction handling and seamless parking session management. I implemented robust APIs for real-time payment processing, integrated third-party payment gateways, and optimized database performance to handle high concurrency without failures. This resulted in a reliable, scalable system that improved transaction success rates and reduced response times under peak load.",
+      "longDescription": "Python-based security system that detects vehicle theft in real-time using moving object detection, Frame differencing techniques and barcode scanning for parking entry validation. Notifies security personnel about unauthorized vehicle movements with automated monitoring.",
+      "technologies": ["Node.js", "PostgreSQL", "Express", "Stripe"],
+      "github": "https://pay.parkmaven.com/",
+      "featured": false,
+      "image": "/6.png",
+      "status": "Completed",
+      "priority": 5
+    },
+    {
+      "id": 7,
+      "title": "Mr Pops Craft Ice Cream",
+      "subtitle": "",
+      "description": "Led the frontend development of mrpops.ua, focusing on building a clean, visually engaging interface that reflects the brand’s playful identity while maintaining strong performance. I optimized page load times and responsiveness across devices, ensuring a smooth user experience even with rich media content. I also implemented reusable UI components and structured the codebase for scalability, making future updates faster and more efficient.",
+      "longDescription": "Django-based restaurant management system featuring QR code table ordering, MongoDB integration, email notifications, and comprehensive order management. Includes both customer-facing ordering interface and restaurant management dashboard.",
+      "technologies": ["Next.js / React.js","Responsive design", "HTML", "CSS", "JavaScript"],
+      "github": "https://mrpops.ua/en/",
+      "featured": false,
+      "image": "/7.png",
+      "status": "Completed",
+      "priority": 9
+    },
+    {
+      "id": 8,
+      "title": "Marugame Udon",
+      "subtitle": "",
+      "description": "Led the frontend development for the Marugame Japan site, focusing on delivering a fast, visually clean experience that reflects the brand’s simplicity and authenticity. I optimized performance across devices, improved page load speed, and ensured smooth navigation with responsive, accessible UI components. I also collaborated closely with design and backend teams to maintain consistency while rolling out localized content and dynamic menu updates.",
+      "longDescription": "Django-based file conversion platform supporting multiple file formats with bulk processing capabilities. Features user-friendly interface for seamless file format conversions, developed as part of hackathon competition.",
+      "technologies": ["Next.js", "HTML5","Responsive design", "Typescript"],
+      "github": "https://jp.marugame.com/",
+      "featured": false,
+      "image": "/8.png",
+      "status": "Completed",
+      "priority": 7
+    },
+    {
+      "id": 9,
+      "title": "Eleat Protein Cereal",
+      "subtitle": "",
+      "description": "Built the frontend of eleatcereal with a strong focus on creating a clean, engaging UI that highlights the brand’s personality and products. I optimized performance and responsiveness across devices, ensuring smooth navigation and fast load times. I also refined component structure and state handling to make the interface scalable and easy to maintain as the project evolved.",
+      "longDescription": "Node.js-based recruitment system designed to reduce hiring bias by focusing on skills and qualifications rather than personal attributes. Features comprehensive candidate evaluation, MySQL database integration, and EJS templating for dynamic content rendering.",
+      "technologies": ["React.js", "JavaScript", "Responsive design",  "HTML", "CSS"],
+      "github": "https://eleatcereal.com/",
+      "featured": false,
+      "image": "/9.png",
+      "status": "Completed",
+      "priority": 4
+    }
+  ],
+  "publications": [
+    {
+      "title": "Research Paper Insight Engine: Empowering Visually Impaired Individuals through Multimodal Generative AI",
+      "venue": "IEEE",
+      "doi": "10.1109/ICOCT64433.2025.11118397",
+      "url": "https://doi.org/10.1109/ICOCT64433.2025.11118397",
+      "date": "Aug 2025",
+      "description": "Research on multimodal AI systems for accessibility enhancement",
+      "category": "research"
+    },
+    {
+      "title": "AuthEZ: A Multifaceted Identity Provider Service using Facial, Voice, and In-App Authentication",
+      "venue": "IEEE",
+      "doi": "10.1109/GCAT62922.2024.10923933",
+      "url": "https://doi.org/10.1109/GCAT62922.2024.10923933",
+      "date": "Oct 2024",
+      "description": "Comprehensive study on passwordless authentication methodologies",
+      "category": "research"
+    },
+    {
+      "title": "I Vibecoded My Web Portfolio with AI — A 2025 Experiment",
+      "venue": "Medium",
+      "url": "https://medium.com/@muratamagenji394/i-vibecoded-my-web-portfolio-with-ai-a-2025-experiment-edcfdfc21092",
+      "date": "Jul 2025",
+      "description": "Experiment on using AI to create a web portfolio",
+      "category": "blog"
+    },
+    {
+      "title": "Production-Ready LLM Memory: Redis for Durable History and Semantic Retrieval — Part 1",
+      "venue": "Medium",
+      "url": "https://medium.com/@muratamagenji394/production-ready-llm-memory-redis-for-durable-history-and-semantic-retrieval-part-1-13713c21c0cb",
+      "date": "Sep 2025",
+      "description": "Part 1 of a series on building a production-ready LLM memory - Base setup and short-term memory.",
+      "category": "blog"
+    },
+    {
+      "title": "Production-Ready LLM Memory: Redis for Durable History and Semantic Retrieval — Part 2",
+      "venue": "Medium",
+      "url": "https://medium.com/@muratamagenji394/production-ready-llm-memory-redis-for-durable-history-and-semantic-retrieval-part-2-b244380618d0",
+      "date": "Sep 2025",
+      "description": "Part 2 of a series on building a production-ready LLM memory - Long-term memory with redis and semantic retrieval.",
+      "category": "blog"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Lowe's Q2 Changemaker Award",
+      "organization": "Scalify AI Co",
+      "year": "2025",
+      "description": "Awarded for bringing AI and Dev Efficiency to life and excelling in actions.",
+      "category": "corporate"
+    },
+    {
+      "title": "Lowe's Individual Excellence Award",
+      "organization": "Scalify AI Co",
+      "year": "2025",
+      "description": "Awarded for bringing the Lowe's core values to life and excelling in actions. Superior sense of ownership and achieving against odds.",
+      "category": "corporate",
+      "url": "https://drive.google.com/file/d/1yrIC9wy2_VlhKVsrggzauwpuI17U6bS4/view?usp=drivesdk&usp=embed_facebook"
+    },
+    {
+      "title": "Lowe's Spot Award",
+      "organization": "Scalify AI Co",
+      "year": "2024",
+      "description": "Immediate recognition for taking action at the right time and going all out in getting the job done.",
+      "category": "corporate",
+      "url": "https://drive.google.com/file/d/1u4wFx8khOBt7NiXoSHrRgmUTfEmheq4W/view?usp=drivesdk&usp=embed_facebook"
+    },
+    {
+      "title": "Pradarshana 2024 - 1st Place",
+      "organization": "Nagoya University ",
+      "year": "2024",
+      "description": "First place at Final Year innovation exhibition for Research Paper Insight Engine project",
+      "category": "competitive",
+      "url": "https://drive.google.com/file/d/1PRPSAcT3uvEDA2iZMDprFA1Jv5zae3yd/view?usp=sharing&usp=embed_facebook"
+    },
+    {
+      "title": "Campus Research Certificate",
+      "organization": "Unisys India",
+      "year": "2024",
+      "description": "Recognition for Research Paper Insight Engine: Accessibility Accelerator Using Multimodal Generative AI",
+      "category": "academic",
+      "url": "https://drive.google.com/file/d/1ovpyEYgLy3r6h-vEP-QZK_MA9NcHFGBH/view?usp=drivesdk&usp=embed_facebook"
+    },
+    { 
+      "title": "Reva Hack 2021 - 2nd Place",
+      "organization": "Reva University",
+      "year": "2021",
+      "description": "Second place for Myxable, an open-source multiformat bulk file conversion platform",
+      "category": "competitive",
+      "url": "https://drive.google.com/file/d/1qvHmLXbMzdKqenyvgwg7bVSxq9u_MIQj/view?usp=sharing&usp=embed_facebook"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Deep Learning Specialization",
+      "provider": "Coursera",
+      "year": "2023",
+      "description": "Comprehensive deep learning specialization covering neural networks, optimization, and advanced architectures",
+      "certificates": [
+        {
+          "url": "https://coursera.org/verify/JXGWAGQ34VTY",
+          "title": "Advanced Learning Algorithms",
+          "year": "2022",
+          "credentialId": "JXGWAGQ34VTY"
+        },
+        {
+          "url": "https://coursera.org/verify/FCSKKCABZXJR",
+          "title": "Sequence Models",
+          "year": "2023",
+          "credentialId": "FCSKKCABZXJR"
+        },
+        {
+          "url": "https://coursera.org/verify/9SWQRKTMS85Y",
+          "title": "Convolutional Neural Networks",
+          "year": "2023",
+          "credentialId": "9SWQRKTMS85Y"
+        },
+        {
+          "url": "https://www.coursera.org/account/accomplishments/verify/RNJFP74S7RYF",
+          "title": "Supervised Machine Learning: Regression and Classification",
+          "year": "2022",
+          "credentialId": "RNJFP74S7RYF"
+        }
+      ],
+      "skills": ["Neural Networks", "Computer Vision", "Natural Language Processing", "Convolutional Neural Networks", "TensorFlow", "Supervised Learning", "Unsupervised Learning"]
+    },
+    {
+      "id": 2,
+      "title": "Microsoft Azure Fundamentals",
+      "provider": "Coursera",
+      "year": "2024",
+      "description": "Azure cloud services, architecture, and deployment strategies for enterprise applications",
+      "certificates": [
+        {
+          "url": "https://www.coursera.org/account/accomplishments/verify/9ZXJV8ATL52V",
+          "title": "Microsoft Azure Management Tools and Security Solutions",
+          "year": "2024",
+          "credentialId": "9ZXJV8ATL52V"
+        },
+        {
+          "url": "https://www.coursera.org/account/accomplishments/verify/HZMYP7MHNL4X",
+          "title": "Microsoft Azure Services and Lifecycles",
+          "year": "2024",
+          "credentialId": "HZMYP7MHNL4X"
+        },
+        {
+          "url": "https://www.coursera.org/account/accomplishments/verify/X85NDRLLFGD2",
+          "title": "Introduction to Microsoft Azure Cloud Services",
+          "year": "2024",
+          "credentialId": "X85NDRLLFGD2"
+        }
+      ],
+      "skills": ["Cloud Computing", "Azure Services", "Cloud Architecture", "DevOps"]
+    },
+    {
+      "id": 3,
+      "title": "Kubernetes Fundamentals",
+      "provider": "LinkedIn Learning",
+      "year": "2024",
+      "certificates": [
+        {
+          "url": "https://drive.google.com/drive/u/1/folders/1dr8EfTztRF8BeTUbG6rtpocDs5RvCgpH",
+          "title": "Kubernetes Fundamentals",
+          "year": "2024",
+          "credentialId": "73e74bbff766d825612bbc361791644140c59fed0eb11c811275ff4ca9969689"
+        }
+      ],
+      "description": "Container orchestration, cluster management, and cloud-native application deployment",
+      "skills": ["Container Orchestration", "DevOps", "Cloud Native", "Microservices"]
+    }
+  ],
+  "seo": {
+    "title": "Murayama genji - AI Engineer & Full-Stack Developer",
+    "description": "AI Senior at Lowe's specializing in AI-driven automation, Full-Stack development and accessibility technology. Expert in Python, React.js, and cloud technologies.",
+    "keywords": ["Murayama genji", "AI Engineer", "Full Stack Developer", "Python", "React", "Machine Learning", "Accessibility Technology", "Lowe's", "Software Engineer", "Bangalore", "Generative AI", "Nagoya University ", "Story AI Co ", "Unisys", "Presidency", "lowes"],
+    "ogImage": "/owais-profile2.png",
+    "googleSiteVerification": "oNrOrBYC8Dz7PNuaUMPlYXCVWaPbmLofyH5Q9EoXg50",
+    "icon": {
+      "icon": "/web-app-manifest.png",
+      "appleTouchIcon": "/apple-touch-icon.png"
+    }
+  }
+}

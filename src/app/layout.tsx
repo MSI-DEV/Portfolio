@@ -1,0 +1,134 @@
+import type { Metadata } from "next";
+import type { ReactNode } from "react";
+import { Inter, JetBrains_Mono } from "next/font/google";
+import "./globals.css";
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { QueryProvider } from "@/components/providers/QueryProvider";
+import { ToastProvider } from "@/components/providers/ToastProvider";
+import { TooltipProvider } from '@/components/ui/tooltip';
+import { publicUrl } from "@/constants";
+import personalInfo from "@/data/personal-info.json";
+import { Analytics } from '@vercel/analytics/next';
+
+const myUrl = process.env.NEXT_PUBLIC_SITE_URL || publicUrl;
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-jetbrains-mono',
+});
+
+export const metadata: Metadata = {
+  title: personalInfo.seo.title,
+  description: personalInfo.seo.description,
+  keywords: personalInfo.seo.keywords,
+  authors: [{ name: personalInfo.personal.name, url: personalInfo.social.linkedin.url }],
+  creator: personalInfo.personal.name,
+  publisher: personalInfo.personal.name,
+  icons: {
+    icon: personalInfo.seo.icon.icon,
+    apple: personalInfo.seo.icon.appleTouchIcon
+  },
+  verification: {
+    google: personalInfo.seo.googleSiteVerification,
+  },
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL(myUrl),
+  alternates: {
+    canonical: myUrl,
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: myUrl,
+    title: personalInfo.seo.title,
+    description: personalInfo.seo.description,
+    siteName: personalInfo.personal.name,
+    images: [{
+      url: personalInfo.seo.ogImage,
+      alt: personalInfo.seo.title,
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: personalInfo.seo.title,
+    description: personalInfo.seo.description,
+    images: [personalInfo.seo.ogImage],
+  },
+
+};
+
+interface RootLayoutProps {
+  readonly children: ReactNode;
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": personalInfo.personal.name,
+              "jobTitle": personalInfo.personal.title,
+              "worksFor": {
+                "@type": "Organization",
+                "name": personalInfo.personal.company
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": personalInfo.personal.location
+              },
+              "email": personalInfo.personal.email,
+              "telephone": personalInfo.personal.phone,
+              "url": myUrl,
+              "sameAs": [
+                personalInfo.social.linkedin.url
+              ],
+              "knowsAbout": [
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Full Stack Development",
+                "Python",
+                "React.js",
+                "Cloud Computing",
+                "Accessibility Technology"
+              ],
+              "keywords": personalInfo.seo.keywords,
+              "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": personalInfo.education.institution
+              }
+            })
+          }}
+        />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <QueryProvider>
+            <TooltipProvider>
+              {children}
+              <ToastProvider />
+            </TooltipProvider>
+          </QueryProvider>
+        </ThemeProvider>
+        <Analytics />
+      </body>
+    </html>
+  );
+}

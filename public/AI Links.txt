@@ -1,0 +1,29 @@
+TensorFlow (Google)
+https://www.tensorflow.org/
+
+PyTorch (Meta)
+https://pytorch.org/
+
+scikit-learn
+https://scikit-learn.org/
+
+Keras
+https://keras.io/
+
+Hugging Face Transformers
+https://huggingface.co/docs/transformers/
+
+OpenCV (Computer Vision)
+https://opencv.org/
+
+spaCy (NLP)
+https://spacy.io/
+
+MXNet (Apache)
+https://mxnet.apache.org/
+
+XGBoost (Gradient Boosting)
+https://xgboost.readthedocs.io/
+
+LightGBM (Microsoft)
+https://lightgbm.readthedocs.io/
