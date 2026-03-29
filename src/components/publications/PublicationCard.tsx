@@ -89,7 +89,8 @@ const PublicationCard: React.FC<PublicationCardProps> = ({ publication }) => {
                   <ExternalLink size={14} />
                   <span>DOI</span>
                 </a>
-              )}
+              )
+              }
             </div>
           )}
         </div>

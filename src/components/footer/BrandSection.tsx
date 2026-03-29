@@ -12,8 +12,8 @@ interface SocialLink {
 
 const BrandSection: React.FC = () => {
   const socialLinks: SocialLink[] = [
-    { icon: Linkedin, href: personalInfo.social.linkedin.url, label: 'LinkedIn' },
-    { icon: Mail, href: personalInfo.social.email, label: 'Email' }
+    // { icon: Linkedin, href: personalInfo.social.linkedin.url, label: 'LinkedIn' },
+    // { icon: Mail, href: personalInfo.social.email, label: 'Email' }
   ];
 
   return (
