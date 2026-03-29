@@ -17,7 +17,7 @@ const ProfileImage: React.FC<ProfileImageProps> = ({ size, className = '' }) => 
 
   const imageSources = useMemo(() => {
     const primary = personalInfo.personal.profileImage;
-    const fallbacks = ['/owais-profile2.png', '/owais-profile.png', '/placeholder.svg'];
+    const fallbacks = ['/owais-profile2.png', '/owais-profile2.png', '/placeholder.svg'];
     return [primary, ...fallbacks.filter((url) => url !== primary)];
   }, []);
 

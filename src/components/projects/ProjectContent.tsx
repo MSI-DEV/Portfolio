@@ -60,8 +60,7 @@ const ProjectContent: React.FC<ProjectContentProps> = ({ project }) => {
       <div className="flex space-x-3">
         <Button size="sm" variant="outline" asChild className="flex-1 group/view-code">
           <a href={project.github} target="_blank" rel="noopener noreferrer">
-            <Github className="w-4 h-4 mr-2 stroke-white group-hover/view-code:stroke-black" />
-            View Code
+            VISIT
           </a>
         </Button>
       </div>
