@@ -129,5 +129,5 @@ The portfolio includes a fully functional contact form. To enable email function
 2. Get your API key
 3. Add to `.env.local`:
    ```
-   RESEND_API_KEY=re_am3EY7Gi
+   RESEND_API_KEY=re_3HrDKzti_AeijYnUrDqziFEUb9McU1o4i
    ```

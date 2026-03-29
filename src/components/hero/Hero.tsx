@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
                 Get In Touch
               </ScrollButton>
               
-              <Button 
+              {/* <Button 
                 variant="outline" 
                 className="border-primary/50 hover:border-primary hover:bg-primary/10 hover:text-primary px-8 py-6 text-lg group"
                 asChild
@@ -71,12 +71,12 @@ const Hero: React.FC = () => {
                   <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                   Download Resume
                 </a>
-              </Button>
+              </Button> */}
             </div>
           </div>
 
           {/* Social Links */}
-          <div className="flex items-center justify-center lg:justify-start space-x-6 pt-4">
+          {/* <div className="flex items-center justify-center lg:justify-start space-x-6 pt-4">
             <a 
               href={personalInfo.social.linkedin.url}
               target="_blank" 
@@ -93,7 +93,7 @@ const Hero: React.FC = () => {
             >
               <Mail size={24} />
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Profile Image */}
