@@ -101,7 +101,7 @@
       "company": "Story AI Co ",
       "location": " Japan",
       "logo": "/professional-experience-logos/story.png",
-      "duration": "2020 – 2022",
+      "duration": "2020 – 2022",   
       "description": "Deployed pods and services in Kubernetes clusters with L7 load balancing. Developed prototypes showcasing SingleStore as vector store utilizing RAG with Langchain.",
       "achievements": [
         "Designed Logic apps for application secrets expiry notification",
